@@ -43,15 +43,40 @@
 ## 🛠️ Công nghệ · Tech stack
 
 <p align="center">
-  <img src="./assets/night-toolkit.png" width="680" alt="Python, Django, FastAPI, PostgreSQL, YOLOv11, Raspberry Pi, .NET và Git" />
+  <a href="https://www.python.org/" title="Python"><img src="./assets/tech/python.svg" width="36" height="36" alt="Python" /></a>&nbsp;
+  <a href="https://www.djangoproject.com/" title="Django"><img src="./assets/tech/django.svg" width="36" height="36" alt="Django" /></a>&nbsp;
+  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="./assets/tech/fastapi.svg" width="36" height="36" alt="FastAPI" /></a>&nbsp;
+  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/tech/postgresql.svg" width="36" height="36" alt="PostgreSQL" /></a>&nbsp;
+  <a href="https://docs.ultralytics.com/models/yolo11/" title="YOLOv11"><img src="./assets/tech/ultralytics.svg" width="36" height="36" alt="YOLOv11" /></a>&nbsp;
+  <a href="https://www.raspberrypi.com/" title="Raspberry Pi"><img src="./assets/tech/raspberrypi.svg" width="36" height="36" alt="Raspberry Pi" /></a>&nbsp;
+  <a href="https://dotnet.microsoft.com/" title=".NET"><img src="./assets/tech/dotnet.svg" width="36" height="36" alt=".NET" /></a>&nbsp;
+  <a href="https://git-scm.com/" title="Git"><img src="./assets/tech/git.svg" width="36" height="36" alt="Git" /></a>
 </p>
 
 ## 📊 Hoạt động GitHub · GitHub activity
 
-<p align="center">
-  <img src="./assets/night-activity.png" width="780" alt="23 đóng góp trong 12 tháng và 4 kho mã công khai · 23 contributions in the past year and 4 public repositories" /><br />
-  <sub>Số liệu ngày 27/11/2026 · Snapshot on 27 Nov 2026</sub> · <a href="https://github.com/BichUyen2609?tab=repositories">Kho mã · Repositories</a>
-</p>
+```mermaid
+---
+config:
+  xyChart:
+    width: 640
+    height: 250
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#58a6ff"
+---
+xychart-beta
+    accTitle: GitHub contributions in November 2026
+    accDescr: The four periods show 4, 10, 0, and 10 contributions in order.
+    title "Đóng góp tháng 11/2026 · November contributions"
+    x-axis "Ngày · Days" ["01–07", "08–14", "15–21", "22–27"]
+    y-axis "Đóng góp · Contributions" 0 --> 12
+    bar [4, 10, 0, 10]
+```
+
+**24 đóng góp · 24 contributions**
+
+<sub>Từ 01 đến 27/11/2026 · 1–27 Nov 2026. <a href="https://github.com/users/BichUyen2609/contributions">Lịch đóng góp GitHub · GitHub contribution calendar</a></sub>
 
 ## 💙 Dự án yêu thích · Favorite projects
 
