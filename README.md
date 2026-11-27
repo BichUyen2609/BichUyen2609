@@ -3,16 +3,24 @@
 </p>
 
 <p align="center">
-  <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong><br />
-  <span lang="vi">Mình thích viết phần mềm cho những việc gần gũi trong chăm sóc sức khỏe và đời sống cộng đồng.</span><br />
-  <span lang="en">I enjoy building software that helps with everyday work in healthcare and supports local communities.</span>
+  <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong>
 </p>
 
 <p align="center">
+  <a href="#ve-minh">Về mình · About</a> &nbsp;·&nbsp;
   <a href="#du-an">Dự án · Projects</a> &nbsp;·&nbsp;
-  <a href="#goc-nho">Góc nhỏ · My corner</a> &nbsp;·&nbsp;
-  <a href="#dang-hoc">Đang học · Learning</a>
+  <a href="#cong-nghe">Công nghệ · Toolkit</a> &nbsp;·&nbsp;
+  <a href="#hoat-dong">Hoạt động · Activity</a> &nbsp;·&nbsp;
+  <a href="#goc-nho">Góc nhỏ · My corner</a>
 </p>
+
+<a name="ve-minh"></a>
+
+## Về mình · About me
+
+<p lang="vi">Mình thích làm phần mềm cho những việc hằng ngày trong y tế và cộng đồng. Mình thường bị cuốn vào những bài toán rất cụ thể, như giúp dược sĩ đếm thuốc trên khay hoặc giúp người gây quỹ theo dõi từng khoản đóng góp.</p>
+
+<p lang="en">I like building software for everyday work in healthcare and in the community. I’m drawn to practical problems, like helping pharmacists count pills on a tray or helping fundraisers keep track of each donation.</p>
 
 <a name="du-an"></a>
 
@@ -41,6 +49,33 @@
   </tr>
 </table>
 
+<a name="cong-nghe"></a>
+
+## Công nghệ mình dùng · My toolkit
+
+<p align="center">
+  <img src="./assets/toolkit.png" width="100%" alt="Python, Django, FastAPI, PostgreSQL, YOLOv11, Raspberry Pi" />
+</p>
+
+<a name="dang-hoc"></a>
+
+### Đang mày mò · What I’m learning
+
+Mình luyện viết API với FastAPI qua [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), một backend quản lý công việc có phân trang và truy vấn bất đồng bộ trên PostgreSQL.
+
+I’m practicing API development with FastAPI in [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), a task management backend with pagination and asynchronous PostgreSQL queries.
+
+<a name="hoat-dong"></a>
+
+## Hoạt động GitHub · GitHub activity
+
+<p align="center">
+  <img src="./assets/github-activity.png" width="100%" alt="22 đóng góp trong 12 tháng · 22 contributions in the past year. 4 kho mã công khai · 4 public repositories." /><br />
+  <sub>Số liệu ngày 27/11/2026 · Snapshot on 27 Nov 2026</sub><br />
+  <a href="https://github.com/users/BichUyen2609/contributions">Lịch đóng góp · Contribution calendar</a> &nbsp;·&nbsp;
+  <a href="https://github.com/BichUyen2609?tab=repositories">Kho mã · Repositories</a>
+</p>
+
 <a name="goc-nho"></a>
 
 ## Góc nhỏ của Uyên · My little corner
@@ -61,11 +96,3 @@
 - **Những thứ nhỏ xinh · Cute little things**<br />
   Mình mê mấy nhân vật bé xíu, nhất là khi tụi nó cử động được như ba bạn ở trên.<br />
   I love tiny characters, especially when they come to life like the three friends above.
-
-<a name="dang-hoc"></a>
-
-## Đang mày mò · What I’m learning
-
-Mình luyện viết API với FastAPI qua [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), một backend quản lý công việc có phân trang và truy vấn bất đồng bộ trên PostgreSQL.
-
-I’m practicing API development with FastAPI in [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), a task management backend with pagination and asynchronous PostgreSQL queries.
