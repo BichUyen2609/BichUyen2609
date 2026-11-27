@@ -1,16 +1,47 @@
 <p align="center">
-  <img src="./assets/bich-uyen.jpg" width="100%" alt="Bích Uyên" />
+  <img src="./assets/bich-uyen.jpg" width="100%" alt="Bích Uyên · Tranh biển xanh và chú thỏ đeo tai nghe đang viết sổ" />
 </p>
 
-<p align="center" lang="vi">
-  <strong>Chào bạn, mình là Uyên!</strong><br />
-  Mình thích viết phần mềm cho những việc gần gũi trong chăm sóc sức khỏe và đời sống cộng đồng.
+<p align="center">
+  <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong><br />
+  <span lang="vi">Mình thích viết phần mềm cho những việc gần gũi trong chăm sóc sức khỏe và đời sống cộng đồng.</span><br />
+  <span lang="en">I enjoy building software that helps with everyday work in healthcare and supports local communities.</span>
 </p>
 
-<p align="center" lang="en">
-  <strong>Hi, I’m Uyên!</strong><br />
-  I enjoy building software that helps with everyday work in healthcare and supports local communities.
+<p align="center">
+  <a href="#du-an">Dự án · Projects</a> &nbsp;·&nbsp;
+  <a href="#goc-nho">Góc nhỏ · My corner</a> &nbsp;·&nbsp;
+  <a href="#dang-hoc">Đang học · Learning</a>
 </p>
+
+<a name="du-an"></a>
+
+## Dự án yêu thích · Favorite projects
+
+<table width="100%">
+  <tr>
+    <td valign="top" width="50%">
+      <a href="https://github.com/pbl4-hotrodemthuoc/PILL-COUNTER-PROJECT">
+        <img src="./assets/pill-counter.jpg" width="100%" alt="" /><br />
+        <strong>Đếm thuốc · Pill Counter</strong>
+      </a><br />
+      <sub>YOLOv11 · Raspberry Pi</sub><br /><br />
+      <span lang="vi">Dự án nhóm dùng thị giác máy tính để hỗ trợ dược sĩ đếm viên thuốc trên khay.</span><br />
+      <span lang="en">A team project that uses computer vision to help pharmacists count pills on a tray.</span>
+    </td>
+    <td valign="top" width="50%">
+      <a href="https://github.com/BichUyen2609/project_python/tree/journeys/apps/fundraising">
+        <img src="./assets/fundraising.jpg" width="100%" alt="" /><br />
+        <strong>Trái tim cho em · A Heart for You</strong>
+      </a><br />
+      <sub>Python · Django</sub><br /><br />
+      <span lang="vi">Mô-đun Django giúp tạo chiến dịch gây quỹ cho các em và ghi nhận từng khoản đóng góp.</span><br />
+      <span lang="en">A Django module for creating fundraising campaigns for children and recording each donation.</span>
+    </td>
+  </tr>
+</table>
+
+<a name="goc-nho"></a>
 
 ## Góc nhỏ của Uyên · My little corner
 
@@ -31,32 +62,7 @@
   Mình mê mấy nhân vật bé xíu, nhất là khi tụi nó cử động được như ba bạn ở trên.<br />
   I love tiny characters, especially when they come to life like the three friends above.
 
-## Dự án yêu thích · Favorite projects
-
-<table>
-  <tr>
-    <td align="center" valign="middle" width="144">
-      <img src="./assets/pill-counter.png" width="128" alt="" />
-    </td>
-    <td valign="middle">
-      <strong><a href="https://github.com/pbl4-hotrodemthuoc/PILL-COUNTER-PROJECT">Đếm thuốc · Pill Counter</a></strong><br />
-      <span lang="vi">Dự án nhóm dùng thị giác máy tính để hỗ trợ dược sĩ đếm viên thuốc trên khay.</span><br />
-      <span lang="en">A team project that uses computer vision to help pharmacists count pills on a tray.</span><br />
-      <sub>YOLOv11 · Raspberry Pi</sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" valign="middle" width="144">
-      <img src="./assets/fundraising.png" width="128" alt="" />
-    </td>
-    <td valign="middle">
-      <strong><a href="https://github.com/BichUyen2609/project_python/tree/journeys/apps/fundraising">Trái tim cho em · A Heart for You</a></strong><br />
-      <span lang="vi">Mô-đun Django giúp tạo chiến dịch gây quỹ cho các em và ghi nhận từng khoản đóng góp.</span><br />
-      <span lang="en">A Django module for creating fundraising campaigns for children and recording each donation.</span><br />
-      <sub>Python · Django</sub>
-    </td>
-  </tr>
-</table>
+<a name="dang-hoc"></a>
 
 ## Đang mày mò · What I’m learning
 
