@@ -2,21 +2,34 @@
   <img src="./assets/bich-uyen.jpg" width="100%" alt="Bích Uyên" />
 </p>
 
-<p align="center">
-  <img src="./assets/sound-wave.gif" width="132" height="30" alt="" />
-</p>
-
 <p align="center" lang="vi">
   <strong>Chào bạn, mình là Uyên!</strong><br />
-  Mình thích âm thanh, viết lách và những thứ nhỏ xinh.<br />
-  Khi viết code, mình đặc biệt thích các dự án về chăm sóc sức khỏe và gây quỹ cộng đồng.
+  Mình thích viết phần mềm cho những việc gần gũi trong chăm sóc sức khỏe và đời sống cộng đồng.
 </p>
 
 <p align="center" lang="en">
   <strong>Hi, I’m Uyên!</strong><br />
-  I love sound, writing, and cute little things.<br />
-  I especially enjoy building projects for healthcare and community fundraising.
+  I enjoy building software that helps with everyday work in healthcare and supports local communities.
 </p>
+
+## Góc nhỏ của Uyên · My little corner
+
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/little-friends.png" />
+    <img src="./assets/little-friends.gif" width="660" alt="Thỏ nghe nhạc, mèo ôm sổ và gấu ôm tim · A bunny with headphones, a cat with a notebook, and a bear with a heart" />
+  </picture>
+</p>
+
+- **Âm thanh · Sound**<br />
+  Mình thích những nốt nhạc và âm thanh nhỏ mang lại không khí cho một trang web.<br />
+  I like the notes and little sounds that give a website its own atmosphere.
+- **Viết lách · Writing**<br />
+  Mình thích viết vài dòng để giữ lại một ý tưởng hoặc một chuyện nhỏ trong ngày.<br />
+  I like to write a few lines to remember an idea or a small moment from the day.
+- **Những thứ nhỏ xinh · Cute little things**<br />
+  Mình mê mấy nhân vật bé xíu, nhất là khi tụi nó cử động được như ba bạn ở trên.<br />
+  I love tiny characters, especially when they come to life like the three friends above.
 
 ## Dự án yêu thích · Favorite projects
 
@@ -37,10 +50,16 @@
       <img src="./assets/fundraising.png" width="128" alt="" />
     </td>
     <td valign="middle">
-      <strong><a href="https://github.com/BichUyen2609/project_python/tree/journeys/apps/fundraising">Gây quỹ · Fundraising</a></strong><br />
-      <span lang="vi">Mô-đun Django quản lý chiến dịch gây quỹ và ghi nhận các khoản đóng góp.</span><br />
-      <span lang="en">A Django module for managing fundraising campaigns and tracking donations.</span><br />
+      <strong><a href="https://github.com/BichUyen2609/project_python/tree/journeys/apps/fundraising">Trái tim cho em · A Heart for You</a></strong><br />
+      <span lang="vi">Mô-đun Django giúp tạo chiến dịch gây quỹ cho các em và ghi nhận từng khoản đóng góp.</span><br />
+      <span lang="en">A Django module for creating fundraising campaigns for children and recording each donation.</span><br />
       <sub>Python · Django</sub>
     </td>
   </tr>
 </table>
+
+## Đang mày mò · What I’m learning
+
+Mình luyện viết API với FastAPI qua [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), một backend quản lý công việc có phân trang và truy vấn bất đồng bộ trên PostgreSQL.
+
+I’m practicing API development with FastAPI in [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), a task management backend with pagination and asynchronous PostgreSQL queries.
