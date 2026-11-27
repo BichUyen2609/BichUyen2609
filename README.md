@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong>
+  <strong>Chào bạn, mình là Uyên! Bạn cũng có thể gọi mình bằng cái tên thân thương hơn là Biu · Hi, I’m Uyên!</strong>
 </p>
 
 ## 🌙 Về mình · About me
