@@ -56,6 +56,23 @@
   </picture>
 </div>
 
+<div align="center">
+  <a href="https://bichuyen2609.github.io/BichUyen2609/">
+    <picture>
+      <source media="(max-width: 600px)" srcset="./assets/beyond/arcade-mobile.svg" />
+      <img src="./assets/beyond/arcade.svg" width="100%" alt="Midnight Arcade · Mở góc game đêm / Play mini-games" />
+    </picture>
+  </a>
+</div>
+
+<p align="center">
+  <a href="https://bichuyen2609.github.io/BichUyen2609/?game=stars"><strong>Hứng sao · Star Catch</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://bichuyen2609.github.io/BichUyen2609/?game=memory"><strong>Lật thẻ mặt trăng · Moon Match</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://bichuyen2609.github.io/BichUyen2609/?game=rooftop"><strong>Nhảy mái nhà · Rooftop Hop</strong></a>
+</p>
+
 <p align="center">
   <strong>Kết nối với mình · Connect with me</strong>
   &nbsp;
