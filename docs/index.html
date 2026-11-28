@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090d1d">
+  <meta name="description" content="Midnight Arcade của Bích Uyên. Chơi Hứng sao, Lật thẻ mặt trăng và Nhảy mái nhà.">
+  <title>Midnight Arcade · Bích Uyên</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="arcade.css">
+  <script type="module" src="arcade.js"></script>
+</head>
+<body>
+  <header class="topbar shell">
+    <a class="brand" href="https://github.com/BichUyen2609">
+      <img src="assets/icon.svg" alt="" width="32" height="32">
+      Bích Uyên
+    </a>
+    <div class="topbar-actions">
+      <a class="profile-link" id="profile-link" href="https://github.com/BichUyen2609">Về profile</a>
+      <button class="language" id="language" type="button" aria-label="Switch to English">EN</button>
+    </div>
+  </header>
+
+  <main class="shell">
+    <section class="hero" aria-labelledby="arcade-title">
+      <h1 id="arcade-title">Midnight <span>Arcade</span></h1>
+      <p id="hero-copy">Góc game nhỏ cho những đêm chưa muốn ngủ.</p>
+    </section>
+
+    <nav class="game-deck" id="game-deck" aria-label="Chọn trò chơi">
+      <button class="game-tile stars" data-game="stars" type="button" aria-pressed="true" aria-controls="console">
+        <span class="tile-art" aria-hidden="true">✦</span>
+        <span><strong>Hứng sao</strong><small>Star Catch</small></span>
+      </button>
+      <button class="game-tile memory" data-game="memory" type="button" aria-pressed="false" aria-controls="console">
+        <span class="tile-art" aria-hidden="true">☾</span>
+        <span><strong>Lật thẻ mặt trăng</strong><small>Moon Match</small></span>
+      </button>
+      <button class="game-tile rooftop" data-game="rooftop" type="button" aria-pressed="false" aria-controls="console">
+        <span class="tile-art" aria-hidden="true">▟</span>
+        <span><strong>Nhảy mái nhà</strong><small>Rooftop Hop</small></span>
+      </button>
+    </nav>
+
+    <section class="console" id="console" aria-labelledby="game-title">
+      <div class="console-header">
+        <div>
+          <h2 id="game-title">Hứng sao</h2>
+          <p id="game-hint">Hứng sao vàng. Né thiên thạch tím.</p>
+        </div>
+        <div class="meters" id="meters" aria-label="Điểm và kỷ lục"></div>
+      </div>
+
+      <div class="stage" id="stage">
+        <canvas id="field" width="860" height="380" aria-label="Sân chơi">Sân chơi Midnight Arcade.</canvas>
+        <div class="memory-grid" id="memory-grid" hidden></div>
+        <div class="overlay" id="overlay">
+          <div class="overlay-card">
+            <span id="overlay-mark" class="overlay-mark" aria-hidden="true">✦</span>
+            <h3 id="overlay-title">Hứng sao</h3>
+            <p id="overlay-description">Đón sao vàng và né thiên thạch trước khi hết 30 giây.</p>
+            <button class="primary" id="play" type="button">Bắt đầu</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="console-footer">
+        <p class="controls-hint" id="controls-hint">← → hoặc kéo trên sân</p>
+        <div class="action-buttons">
+          <div class="touch-pad" id="touch-pad" hidden>
+            <button id="left" type="button" aria-label="Di chuyển trái">◀</button>
+            <button id="right" type="button" aria-label="Di chuyển phải">▶</button>
+            <button id="jump" type="button" hidden>Nhảy</button>
+          </div>
+          <button id="pause" type="button" disabled>Tạm dừng</button>
+          <button id="restart" type="button">Chơi lại</button>
+        </div>
+      </div>
+      <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+    </section>
+    <noscript>Hãy bật JavaScript để chơi. Enable JavaScript to play.</noscript>
+  </main>
+</body>
+</html>
