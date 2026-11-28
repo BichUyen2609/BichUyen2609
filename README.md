@@ -10,6 +10,15 @@
   <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong>
 </p>
 
+<p align="center">
+  <img src="./assets/profile-tagline.svg" width="420" alt="Python · Backend APIs · Computer vision" />
+</p>
+
+<p align="center">
+  <a href="https://www.facebook.com/bich.uyen.40057"><img src="https://img.shields.io/badge/Facebook-244b73?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook của Uyên" /></a>
+  <a href="https://www.instagram.com/anita.2609/"><img src="https://img.shields.io/badge/Instagram-68456f?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram @anita.2609" /></a>
+</p>
+
 ## 🌙 Về mình · About me
 
 <table width="100%">
@@ -53,31 +62,6 @@
   <a href="https://git-scm.com/" title="Git"><img src="./assets/tech/git.svg" width="36" height="36" alt="Git" /></a>
 </p>
 
-## 📊 Hoạt động GitHub · GitHub activity
-
-```mermaid
----
-config:
-  xyChart:
-    width: 640
-    height: 250
-  themeVariables:
-    xyChart:
-      plotColorPalette: "#58a6ff"
----
-xychart-beta
-    accTitle: GitHub contributions in November 2026
-    accDescr: The four periods show 4, 10, 0, and 10 contributions in order.
-    title "Đóng góp tháng 11/2026 · November contributions"
-    x-axis "Ngày · Days" ["01–07", "08–14", "15–21", "22–27"]
-    y-axis "Đóng góp · Contributions" 0 --> 12
-    bar [4, 10, 0, 10]
-```
-
-**24 đóng góp · 24 contributions**
-
-<sub>Từ 01 đến 27/11/2026 · 1–27 Nov 2026. <a href="https://github.com/users/BichUyen2609/contributions">Lịch đóng góp GitHub · GitHub contribution calendar</a></sub>
-
 ## 💙 Dự án yêu thích · Favorite projects
 
 <table width="100%">
@@ -102,5 +86,52 @@ xychart-beta
 Mình luyện viết API với FastAPI qua [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), một backend quản lý công việc có phân trang và truy vấn bất đồng bộ trên PostgreSQL.
 
 I’m practicing API development with FastAPI in [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), a task management backend with pagination and asynchronous PostgreSQL queries.
+
+## 📊 Hoạt động GitHub · GitHub activity
+
+<p align="center">
+  <a href="https://github.com/BichUyen2609"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BichUyen2609&amp;theme=blueberry" width="340" alt="Thống kê GitHub · GitHub stats" /></a>
+  <a href="https://github.com/BichUyen2609?tab=repositories"><img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=BichUyen2609&amp;theme=blueberry" width="340" alt="Ngôn ngữ theo số kho mã · Top languages by repository count" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/users/BichUyen2609/contributions"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BichUyen2609&amp;theme=blueberry" width="700" alt="Biểu đồ đóng góp trong năm qua · Contribution graph for the past year" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/users/BichUyen2609/contributions"><img src="https://streak-stats.demolab.com/?user=BichUyen2609&amp;card_width=700&amp;card_height=170&amp;background=242938&amp;border=242938&amp;stroke=414d63&amp;ring=89ddff&amp;fire=f6c88e&amp;currStreakLabel=89ddff&amp;sideLabels=bfcef0&amp;currStreakNum=e5efff&amp;sideNums=e5efff&amp;dates=bfcef0&amp;date_format=j%20M%5B%20Y%5D" width="700" alt="Chuỗi ngày đóng góp hiện tại và dài nhất · Current and longest contribution streaks" /></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/users/BichUyen2609/contributions">Lịch đóng góp GitHub · GitHub contribution calendar</a>
+</p>
+
+<details>
+<summary>Nhật ký tháng 11/2026 · November 2026 snapshot</summary>
+
+```mermaid
+---
+config:
+  xyChart:
+    width: 640
+    height: 250
+  themeVariables:
+    xyChart:
+      plotColorPalette: "#58a6ff"
+---
+xychart-beta
+    accTitle: GitHub contributions in November 2026
+    accDescr: The four periods show 4, 10, 0, and 10 contributions in order.
+    title "Đóng góp tháng 11/2026 · November contributions"
+    x-axis "Ngày · Days" ["01–07", "08–14", "15–21", "22–27"]
+    y-axis "Đóng góp · Contributions" 0 --> 12
+    bar [4, 10, 0, 10]
+```
+
+**24 đóng góp · 24 contributions**
+
+<sub>Từ 01 đến 27/11/2026 · 1–27 Nov 2026.</sub>
+
+</details>
 
 <!-- Tech icons from Simple Icons (https://simpleicons.org/). -->

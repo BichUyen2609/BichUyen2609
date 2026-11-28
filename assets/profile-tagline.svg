@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="30" viewBox="0 0 420 30">
+  <title>Python · Backend APIs · Computer vision</title>
+  <style>
+    text { fill: #285c8d; }
+
+    @media (prefers-color-scheme: dark) {
+      text { fill: #91cfff; }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal { animation: typing 1.8s steps(39, end) both; }
+    }
+
+    @keyframes typing {
+      from { transform: translateX(-390px); }
+      to { transform: translateX(0); }
+    }
+  </style>
+  <defs>
+    <clipPath id="typing">
+      <rect class="reveal" x="15" width="390" height="30" />
+    </clipPath>
+  </defs>
+  <text x="210" y="21" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="17" textLength="390" lengthAdjust="spacingAndGlyphs" clip-path="url(#typing)">Python · Backend APIs · Computer vision</text>
+</svg>
