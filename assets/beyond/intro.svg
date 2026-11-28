@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="44" viewBox="0 0 1200 44" role="img" aria-labelledby="title">
-  <title id="title">IT Student | Python Backend | Computer Vision</title>
+  <title id="title">Mình là Uyên · Sinh viên CNTT</title>
   <defs>
     <linearGradient id="panel" x2=".92" y2="1">
       <stop stop-color="#101e3b"/>
@@ -35,20 +35,20 @@
     <path d="M14 21H288M912 21H1186" stroke="url(#rule)"/>
        <text x="310" y="29" font-size="21" font-weight="700" fill="#59beff">&lt;/&gt;</text>
        <text x="854" y="29" font-size="21" font-weight="700" fill="#59beff">&lt;/&gt;</text>
-    <g class="phrase" style="--lag: 0s; --letters: 45; --shift: -486px">
-        <clipPath id="reveal-0"><rect class="mask" x="357" width="486" height="44"/></clipPath>
+    <g class="phrase" style="--lag: 0s; --letters: 29; --shift: -313.2px">
+        <clipPath id="reveal-0"><rect class="mask" x="443.4" width="313.2" height="44"/></clipPath>
         <text x="600" y="28" text-anchor="middle" font-family="Consolas,monospace" font-size="18" fill="#d3e9ff"
-          textLength="486" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-0)">IT Student | Python Backend | Computer Vision</text>
+          textLength="313.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-0)">Mình là Uyên · Sinh viên CNTT</text>
       </g>
-    <g class="phrase secondary" style="--lag: 5s; --letters: 29; --shift: -313.2px">
-        <clipPath id="reveal-1"><rect class="mask" x="443.4" width="313.2" height="44"/></clipPath>
+    <g class="phrase secondary" style="--lag: 5s; --letters: 25; --shift: -270px">
+        <clipPath id="reveal-1"><rect class="mask" x="465" width="270" height="44"/></clipPath>
         <text x="600" y="28" text-anchor="middle" font-family="Consolas,monospace" font-size="18" fill="#d3e9ff"
-          textLength="313.2" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-1)">FastAPI · Django · PostgreSQL</text>
+          textLength="270" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-1)">Hi, I'm Uyên · IT Student</text>
       </g>
-    <g class="phrase secondary" style="--lag: 10s; --letters: 23; --shift: -248.39999999999998px">
-        <clipPath id="reveal-2"><rect class="mask" x="475.8" width="248.39999999999998" height="44"/></clipPath>
+    <g class="phrase secondary" style="--lag: 10s; --letters: 35; --shift: -378px">
+        <clipPath id="reveal-2"><rect class="mask" x="411" width="378" height="44"/></clipPath>
         <text x="600" y="28" text-anchor="middle" font-family="Consolas,monospace" font-size="18" fill="#d3e9ff"
-          textLength="248.39999999999998" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-2)">Dream. Create. Explore.</text>
+          textLength="378" lengthAdjust="spacingAndGlyphs" clip-path="url(#reveal-2)">Backend · Computer Vision · Game AI</text>
       </g>
   </g>
 </svg>
