@@ -1,0 +1,57 @@
+name: Update profile contributions
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/scripts/contribution-calendar.mjs
+      - .github/workflows/profile-contributions.yml
+  schedule:
+    - cron: '24 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-contributions
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out the calendar script
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Draw the contribution calendar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node .github/scripts/contribution-calendar.mjs
+
+      - name: Generate the contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/contribution-snake.svg?palette=github-light&color_snake=#2465bd&color_dots=#e9eef6,#c2ddff,#8ebcff,#5d99eb,#296dca
+            dist/contribution-snake-dark.svg?palette=github-dark&color_snake=#9edaff&color_dots=#1d304b,#284f9a,#3477d8,#54a4fa,#a9dcff
+
+      - name: Honor reduced motion
+        run: |
+          sed -i 's|</style>|@media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>|' \
+            dist/contribution-snake.svg dist/contribution-snake-dark.svg
+
+      - name: Publish the SVG files to the output branch
+        uses: crazy-max/ghaction-github-pages@1d6ee9b181a81033a16bd707a1401afa978daab4 # v5.0.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: true
+          allow_empty_commit: false
+          commit_message: Update contribution calendar and snake
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
