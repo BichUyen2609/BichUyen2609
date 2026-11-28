@@ -7,19 +7,31 @@
 </h1>
 
 <p align="center">
-  <strong>Chào bạn, mình là Uyên! · Hi, I’m Uyên!</strong>
+  <strong>Hello, World! · Chào bạn, mình là Uyên!</strong>
 </p>
 
 <p align="center">
-  <img src="./assets/profile-tagline.svg" width="420" alt="Python · Backend APIs · Computer vision" />
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/profile-tagline.svg" />
+    <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&amp;weight=500&amp;size=18&amp;duration=2700&amp;pause=1200&amp;color=9ECFFF&amp;background=0D1832&amp;center=true&amp;vCenter=true&amp;width=510&amp;height=42&amp;lines=IT+Student+%7C+Python+%26+Backend;FastAPI+%C2%B7+Django+%C2%B7+PostgreSQL;Computer+Vision+%C2%B7+Creative+Web" width="510" alt="IT Student · Python &amp; Backend · FastAPI · Django · PostgreSQL · Computer Vision · Creative Web" />
+  </picture>
 </p>
 
-<p align="center">
-  <a href="https://www.facebook.com/bich.uyen.40057"><img src="https://img.shields.io/badge/Facebook-244b73?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook của Uyên" /></a>
-  <a href="https://www.instagram.com/anita.2609/"><img src="https://img.shields.io/badge/Instagram-68456f?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram @anita.2609" /></a>
-</p>
+## 🖥️ Về mình · About me
 
-## 🌙 Về mình · About me
+```python
+class Developer:
+    name = "Bích Uyên"
+    role = "IT Student"
+    interests = ("Python backends", "Computer vision", "Creative web")
+    currently_learning = ("FastAPI", "Async PostgreSQL")
+
+    def say_hi(self):
+        print(f"Cảm ơn bạn đã ghé GitHub của {self.name}! 🌙")
+
+
+Developer().say_hi()
+```
 
 <table width="100%">
   <tr>
@@ -49,18 +61,36 @@
   </tr>
 </table>
 
-## 🛠️ Công nghệ · Tech stack
+## ⚡ Công nghệ · Tech stack
 
-<p align="center">
-  <a href="https://www.python.org/" title="Python"><img src="./assets/tech/python.svg" width="36" height="36" alt="Python" /></a>&nbsp;
-  <a href="https://www.djangoproject.com/" title="Django"><img src="./assets/tech/django.svg" width="36" height="36" alt="Django" /></a>&nbsp;
-  <a href="https://fastapi.tiangolo.com/" title="FastAPI"><img src="./assets/tech/fastapi.svg" width="36" height="36" alt="FastAPI" /></a>&nbsp;
-  <a href="https://www.postgresql.org/" title="PostgreSQL"><img src="./assets/tech/postgresql.svg" width="36" height="36" alt="PostgreSQL" /></a>&nbsp;
-  <a href="https://docs.ultralytics.com/models/yolo11/" title="YOLOv11"><img src="./assets/tech/ultralytics.svg" width="36" height="36" alt="YOLOv11" /></a>&nbsp;
-  <a href="https://www.raspberrypi.com/" title="Raspberry Pi"><img src="./assets/tech/raspberrypi.svg" width="36" height="36" alt="Raspberry Pi" /></a>&nbsp;
-  <a href="https://dotnet.microsoft.com/" title=".NET"><img src="./assets/tech/dotnet.svg" width="36" height="36" alt=".NET" /></a>&nbsp;
-  <a href="https://git-scm.com/" title="Git"><img src="./assets/tech/git.svg" width="36" height="36" alt="Git" /></a>
-</p>
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Ngôn ngữ<br /><sub>Languages</sub></th>
+      <th width="40%">Framework &amp; thư viện<br /><sub>Frameworks &amp; libraries</sub></th>
+      <th width="30%">CSDL &amp; công cụ<br /><sub>Databases &amp; tools</sub></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center" valign="top">
+        <a href="https://www.python.org/"><img src="./assets/tech/python.svg" width="24" height="24" alt="" /> Python</a><br />
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="./assets/tech/html5.svg" width="24" height="24" alt="" /> HTML</a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://www.djangoproject.com/"><img src="./assets/tech/django.svg" width="24" height="24" alt="" /> Django</a><br />
+        <a href="https://fastapi.tiangolo.com/"><img src="./assets/tech/fastapi.svg" width="24" height="24" alt="" /> FastAPI</a><br />
+        <a href="https://docs.ultralytics.com/models/yolo11/"><img src="./assets/tech/ultralytics.svg" width="24" height="24" alt="" /> YOLOv11</a><br />
+        <a href="https://dotnet.microsoft.com/"><img src="./assets/tech/dotnet.svg" width="24" height="24" alt="" /> .NET</a>
+      </td>
+      <td align="center" valign="top">
+        <a href="https://www.postgresql.org/"><img src="./assets/tech/postgresql.svg" width="24" height="24" alt="" /> PostgreSQL</a><br />
+        <a href="https://git-scm.com/"><img src="./assets/tech/git.svg" width="24" height="24" alt="" /> Git</a><br />
+        <a href="https://www.raspberrypi.com/"><img src="./assets/tech/raspberrypi.svg" width="24" height="24" alt="" /> Raspberry Pi</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 💙 Dự án yêu thích · Favorite projects
 
@@ -87,7 +117,7 @@ Mình luyện viết API với FastAPI qua [TaskHub](https://github.com/BichUyen
 
 I’m practicing API development with FastAPI in [TaskHub](https://github.com/BichUyen2609/fastapi-backend-training), a task management backend with pagination and asynchronous PostgreSQL queries.
 
-## 📊 Hoạt động GitHub · GitHub activity
+## 📊 Thống kê GitHub · GitHub statistics
 
 <p align="center">
   <a href="https://github.com/BichUyen2609"><img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=BichUyen2609&amp;theme=blueberry" width="340" alt="Thống kê GitHub · GitHub stats" /></a>
@@ -95,15 +125,15 @@ I’m practicing API development with FastAPI in [TaskHub](https://github.com/Bi
 </p>
 
 <p align="center">
-  <a href="https://github.com/users/BichUyen2609/contributions"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=BichUyen2609&amp;theme=blueberry" width="700" alt="Biểu đồ đóng góp trong năm qua · Contribution graph for the past year" /></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/users/BichUyen2609/contributions"><img src="https://streak-stats.demolab.com/?user=BichUyen2609&amp;card_width=700&amp;card_height=170&amp;background=242938&amp;border=242938&amp;stroke=414d63&amp;ring=89ddff&amp;fire=f6c88e&amp;currStreakLabel=89ddff&amp;sideLabels=bfcef0&amp;currStreakNum=e5efff&amp;sideNums=e5efff&amp;dates=bfcef0&amp;date_format=j%20M%5B%20Y%5D" width="700" alt="Chuỗi ngày đóng góp hiện tại và dài nhất · Current and longest contribution streaks" /></a>
 </p>
 
+## 📈 Lịch đóng góp · Contribution graph
+
 <p align="center">
-  <a href="https://github.com/users/BichUyen2609/contributions">Lịch đóng góp GitHub · GitHub contribution calendar</a>
+  <a href="https://github.com/users/BichUyen2609/contributions">
+    <img src="https://raw.githubusercontent.com/BichUyen2609/BichUyen2609/output/contribution-calendar.svg" width="700" alt="Lịch đóng góp trong năm qua trên GitHub · GitHub contribution calendar for the past year" />
+  </a>
 </p>
 
 <details>
@@ -133,5 +163,31 @@ xychart-beta
 <sub>Từ 01 đến 27/11/2026 · 1–27 Nov 2026.</sub>
 
 </details>
+
+## 🐍 Rắn ăn đóng góp · Contribution snake
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BichUyen2609/BichUyen2609/output/contribution-snake-dark.svg" />
+    <img src="https://raw.githubusercontent.com/BichUyen2609/BichUyen2609/output/contribution-snake.svg" width="700" alt="Rắn xanh chạy qua các ô đóng góp GitHub · A blue snake eats the GitHub contribution squares" />
+  </picture>
+</p>
+
+## 🌐 Kết nối · Connect with me
+
+<p align="center">
+  <a href="https://github.com/BichUyen2609"><img src="https://img.shields.io/badge/GitHub-182541?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub của Bích Uyên" /></a>
+  <a href="https://www.facebook.com/bich.uyen.40057"><img src="https://img.shields.io/badge/Facebook-244b73?style=for-the-badge&amp;logo=facebook&amp;logoColor=white" alt="Facebook của Uyên" /></a>
+  <a href="https://www.instagram.com/anita.2609/"><img src="https://img.shields.io/badge/Instagram-68456f?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram @anita.2609" /></a>
+</p>
+
+<p align="center">
+  <strong>💙 Cảm ơn bạn đã ghé! · Thanks for visiting!</strong><br />
+  <em>Code. Learn. Build. Repeat.</em>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0:2459a8,100:0d1832&amp;height=96&amp;section=footer" width="100%" alt="" />
+</p>
 
 <!-- Tech icons from Simple Icons (https://simpleicons.org/). -->
